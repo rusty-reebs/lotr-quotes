@@ -2,18 +2,17 @@
     body {
         background-image: url(onering.png);
         display: grid;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         font-family: 'Bilbo', cursive;
         color: white;
-        margin: auto;
+        /* margin: auto; */
     }
 
     .content {
         display: grid;
         /* grid-template-rows: 20% 10% 25% 25% 20%; */
         grid-template-rows: auto auto auto auto auto;
-
     }
 
     h2 {
@@ -30,14 +29,18 @@
 
     .buttonsdiv {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: auto auto;
+
         
     }
     .characterbutton {
         font-family: 'Bilbo', cursive;
+        /* width: 250px; */
         margin: 15px;
         border: none;
         font-size: 45px;
+        border-radius: 5px;
     }
 
     .spacer {
@@ -46,12 +49,14 @@
     }
     .quotediv {
         display: flex;
-        width: auto;
+        /* width: auto; */
         justify-content: center;
         align-content: center;
     }
 
     .quote {
         font-size: 40px;
-        color: whitesmoke
+        color: whitesmoke;
+        margin-left: 15px;
+        margin-right: 15px;
     }
