@@ -1,0 +1,57 @@
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url(onering.png);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bilbo', cursive;
+        color: white;
+        margin: auto;
+    }
+
+    .content {
+        display: grid;
+        /* grid-template-rows: 20% 10% 25% 25% 20%; */
+        grid-template-rows: auto auto auto auto auto;
+
+    }
+
+    h2 {
+        font-size: 80px;
+        margin: auto;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 50px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .buttonsdiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .characterbutton {
+        font-family: 'Bilbo', cursive;
+        margin: 15px;
+        border: none;
+        font-size: 45px;
+    }
+
+    .spacer {
+        grid-row: 4;
+        height: 400px;
+    }
+    .quotediv {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .quote {
+        font-size: 40px;
+        color: whitesmoke
+    }
